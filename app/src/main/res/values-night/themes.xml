@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyMusicPlayer" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/rose_100</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <!-- Customize your theme here. -->
+        <!-- remove dark mode -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+</resources>
